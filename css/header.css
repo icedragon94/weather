@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    letter-spacing: 2px;
+    background: black no-repeat fixed;
+}
+
+.current-time{
+    margin: 30px auto;
+    width: 600px;
+    text-align: center;
+    font-size: 2em;
+    cursor: default;
+}
+#temp{
+    font-size: 3em;
+}
+sup#current{
+    font-size: 0.7em;
+}
+#sky{
+    margin: 5px;
+}
+
+.input{
+    float: right;
+    text-align: center;
+    margin-right: 50px;
+
+}
+.input input[type="text"]{
+    border: 1px solid silver;
+    width: 200px;
+    text-align: center;
+    background: rgba(00,00,00,0.7);
+    color: white;
+    padding: 10px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.input input[type="button"]{
+    padding: 5px 20px;
+    border: 1px solid white;
+    background: rgba(50,50,50,0.8);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#max{
+    font-size: 1.3em;
+}
+#min{
+    font-size: 0.8em;
+}

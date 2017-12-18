@@ -1,0 +1,105 @@
+.another-day{
+    margin: 10% auto 0 auto;
+    /*border: 1px solid black;*/
+    width: 80%;
+    height: 400px;
+    text-align: center;
+
+}
+
+.day,.day1,.day2,.day3{
+    display: inline-block;
+    width: 18%;
+    height: auto;
+    border: 1px solid azure;
+    margin: 25px;
+    transition: background-color 1s;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: default;
+}
+
+.day:hover,.day1:hover,.day2:hover,.day3:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+
+.day-string{
+    display: block;
+    font-size: 1.6em;
+}
+
+.temp_max{
+    font-size: 2em;
+    margin: 10px;
+}
+
+.wind-div{
+    padding-top: 20px;
+}
+
+.clouds{
+    margin-top: 10px;
+}
+
+.two-day{
+    display: inline;
+}
+@media (max-width: 700px){
+    .day,.day1,.day2,.day3{
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+    }
+    .input, input[type="text"]{
+        display: block;
+        width: 100%;
+        margin: 0 auto 30px auto;
+    }
+    .current-time{
+        width: 100%;
+    }
+    .another-day{
+        margin: 0 auto;
+    }
+
+    .day > img,.day1 > img,.day2 > img,.day3 > img{
+        float: left;
+    }
+
+    .day,.day1,.day2,.day3{
+        padding-bottom: 30px;
+    }
+
+    .temp{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 700px){
+    .two-day{
+        /*display: block;*/
+    }
+    .day,.day1,.day2,.day3{
+        width: 30%;
+    }
+    .another-day{
+        margin: 0 auto;
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 1120px){
+    .input, input[type="text"]{
+        display: block;
+        width: 100%;
+        margin: 10px auto 30px auto;
+    }
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
